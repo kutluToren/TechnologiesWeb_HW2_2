@@ -1,4 +1,5 @@
 # Read Me for HW2 part2 with Typescript
+## Kutlu Tören
 
 ## About the project
 This project is modified version of part1 with typescript used.  It has a home page with simple instructions and a button at /hello if there is correct parameter given
