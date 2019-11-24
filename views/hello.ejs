@@ -19,7 +19,8 @@
         const content = data.map(d => {
         return 'timestamp: '+d.timestamp+', value: '+d.value+'';
         })
-        $('#metrics').append(content.join("\n"));
+        $('#metrics').append(content.join("<br>"));
+        $('#metrics').append("<br>");
     });
     })
 
