@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, '/public')))
 import { MetricsHandler } from './metrics'
 
 
-app.set('views', __dirname + "/views")
+app.set('views', __dirname + "/../views")
 app.set('view engine', 'ejs');
 
 const port: string = process.env.PORT || '8080'
